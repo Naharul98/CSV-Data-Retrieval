@@ -1,0 +1,21 @@
+# Fields: Code,origin,destination,date,dep. time,arrival time,airline,price,type
+BA036, LHR, SVO,246,545,1335, British Airways,295, economy
+BA038, LHR, SVO,1357,745,1535, British Airways,315, economy
+BA036, LHR, SVO,246,545,1335, British Airways,595, business
+BA038, LHR, SVO,1357,745,1535, British Airways,615, business
+BA052, SVO, LHR,246,1430,1635, British Airways,325.5, economy
+BA056, SVO, LHR,1357,1630,1835, British Airways,325.5, economy
+BA052, SVO, LHR,246,1430,1635, British Airways,630, business
+BA056, SVO, LHR,1357,1630,1835, British Airways,625.5, business
+BA100, LHR, CDG,123456,845,1040, British Airways,155.95, economy
+BA102, CDG, LHR,123456,1145,1150, British Airways,205.5, economy
+IB112, LGW, BCN,1234567,950,1205, Iberia Airlines,210, economy
+IB118, BCN, LGW,1234567,1350,1515, Iberia Airlines,200, economy
+IB113, LGW, BCN,1234567,1250,1505, Iberia Airlines,230, economy
+IB119, BCN, LGW,1234567,1650,1815, Iberia Airlines,180, economy
+BA863, LHR, JFK,1357,455,855, British Airways,615, economy
+BA865, JFK, LHR,1357,1100,2255, British Airways,595, economy
+BA863, LHR, JFK,1357,455,855, British Airways,1015, business
+BA865, JFK, LHR,1357,1100,2255, British Airways,1095, business
+BA863, LHR, JFK,1357,455,855, British Airways,1995, first
+BA865, JFK, LHR,1357,1100,2255, British Airways,2095, first

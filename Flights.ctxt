@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Flights
+comment0.text=\r\n\ This\ the\ flight\ class\ representing\ flight\ objects\r\n\ author\ -\ A\ K\ M\ NAHARUL\ HAYAT;\ 1750583;\ K1764014\r\n
+comment1.params=code\ origin\ destination\ date\ departureTime\ arrivalTime\ airline\ price\ type
+comment1.target=Flights(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getDate()
+comment2.text=\r\n\ @return\ the\ date\ of\ the\ flight\r\n
+comment3.params=
+comment3.target=java.lang.String\ getOrigin()
+comment3.text=\r\n\ @return\ the\ origin\ or\ the\ starting\ airport\ of\ the\ flight\r\n
+comment4.params=
+comment4.target=java.lang.String\ getDetails()
+comment4.text=\r\n\ @return\ full\ detail\ of\ a\ particular\ flight\r\n
+numComments=5

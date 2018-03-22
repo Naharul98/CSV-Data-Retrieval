@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=FlightReader
+comment0.text=\r\n\ This\ the\ \ class,\ responsible\ for\ reading\ data\ off\ the\ csv\ file\ and\ creating\ flight\ objects\r\n\ this\ class\ also\ the\ method\ called\ searchFlight\r\n\ which\ enables\ searching\ of\ flight\ based\ on\ the\ criteria\ input\r\n\ to\ run\ this\ program,\ call\ the\ MAIN\ method\r\n\ author\ -\ A\ K\ M\ NAHARUL\ HAYAT;\ 1750583;\ K1764014\r\n
+comment1.params=
+comment1.target=FlightReader()
+comment1.text=\r\n\ this\ is\ the\ constructor,\ this\ method\ calls\ the\ getFlights\ method,\r\n\ with\ the\ appropriate\ root\ data\ file\ name\r\n\ and\ in\ effect,\ flight\ objects\ from\ the\ csv\ file\ is\ created\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment2.text=\r\n\ this\ is\ the\ main\ method,\ pops\ up\ a\ commandline\ for\ taking\ input\ from\ the\ user\r\n\ takes\ airportName\ and\ date\ input\ from\ the\ user,\ and\ displays\ matching\ flight\ criteria\r\n\ if\ data\ input\ not\ valid,\ then\ a\ messege\ is\ displayed\ accordingly\r\n
+comment3.params=filename
+comment3.target=java.util.ArrayList\ getFlights(java.lang.String)
+comment3.text=\r\n\ this\ method\ reads\ data\ file\ and\ creates\ flight\ objects\ from\ the\ csv\ file\r\n\ @return\ arraylist\ of\ flight\ objects\r\n
+comment4.params=airportName\ date
+comment4.target=void\ searchFlights(java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ this\ is\ the\ method\ for\ searching\ the\ flight,\ according\ to\ the\ airportname\ and\ the\ date\ criteria\r\n
+comment5.params=dateInput\ actualDate
+comment5.target=java.lang.Boolean\ dateComparison(java.lang.String,\ java.lang.String)
+comment5.text=\r\n\ this\ is\ a\ helper\ method,\ to\ compare\ the\ date\ input\ with\ the\ actual\ date\ in\ the\ data\r\n\ @return\ true\ if\ any\ part\ of\ the\ date\ input\ is\ matched\ with\ any\ part\ of\ the\ actual\ 'date'\ data,\ false\ if\ otherwise\r\n
+comment6.params=date
+comment6.target=boolean\ checkDateValidity(java.lang.String)
+comment6.text=\r\n\ this\ is\ a\ helper\ method\ to\ check\ if\ date\ input\ is\ within\ the\ valid\ range\ or\ not\r\n\ @return\ true,\ if\ the\ date\ is\ in\ a\ valid\ data\ format,\ otherwise\ returns\ false\r\n
+numComments=7
